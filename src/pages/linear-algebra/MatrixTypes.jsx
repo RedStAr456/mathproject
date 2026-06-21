@@ -14,7 +14,7 @@ export default function MatrixTypes() {
 
         <section className="lesson-section">
           <div className="formula-card-large">
-            ㅤㅤㅤ(1 0)<br/>
+            ㅤㅤ(1 0)<br/>
             E₂ =  (0 1) <br/>
             ㅤединичная матрица
           </div>
