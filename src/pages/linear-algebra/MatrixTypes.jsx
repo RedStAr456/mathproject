@@ -14,11 +14,16 @@ export default function MatrixTypes() {
 
         <section className="lesson-section">
           <div className="formula-card-large">
-            E₂ = [ [1,0], [0,1] ] (единичная матрица)
+                 (1 0)<br/>
+            E₂ = (0 1) <br/>
+              единичная матрица
           </div>
 
           <div className="formula-card-large">
-            0₃ = [ [0,0,0], [0,0,0], [0,0,0] ] (нулевая матрица)
+                  (0 0 0)<br/>
+             0₃ = (0 0 0)<br/>
+                  (0 0 0)<br/>
+              нулевая матрица
           </div>
         </section>
 

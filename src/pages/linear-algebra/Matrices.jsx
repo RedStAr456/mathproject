@@ -15,8 +15,8 @@ export default function Matrices() {
         <section className="lesson-section">
           <h2>Пример матрицы 2x3</h2>
           <div className="formula-card-large">
-            [ [1, 2, 3],<br/>
-              [4, 5, 6] ]
+              [1, 2, 3]<br/>
+              [4, 5, 6] 
           </div>
         </section>
 
