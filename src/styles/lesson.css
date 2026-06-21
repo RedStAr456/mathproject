@@ -1,183 +1,333 @@
 .lesson-page {
-  max-width: 1200px;
+max-width: 1200px;
 }
 
+/* HERO */
+
 .lesson-hero {
-  background:
-    linear-gradient(
-      135deg,
-      #f8f7ff,
-      #eef2ff
-    );
+background:
+linear-gradient(
+135deg,
+#f8f7ff,
+#eef2ff
+);
 
-  border-radius: 36px;
+border:
+1px solid #e5e7ff;
 
-  padding: 60px;
+border-radius: 36px;
 
-  margin-bottom: 50px;
+padding: 60px;
 
-  border:
-    1px solid #e5e7ff;
+margin-bottom: 50px;
 }
 
 .lesson-badge {
-  display: inline-block;
+display: inline-block;
 
-  padding: 10px 18px;
+padding: 10px 18px;
 
-  border-radius: 999px;
+border-radius: 999px;
 
-  background: white;
+background: white;
 
-  color: #5b5cf0;
+color: #5b5cf0;
 
-  font-weight: 700;
+font-weight: 700;
 
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .lesson-hero h1 {
-  font-size: 72px;
+font-size: 72px;
 
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .lesson-hero p {
-  max-width: 800px;
+max-width: 800px;
 
-  font-size: 20px;
+font-size: 20px;
 
-  color: #64748b;
+color: #64748b;
 
-  line-height: 1.8;
+line-height: 1.8;
 }
 
+/* SECTIONS */
+
 .lesson-section {
-  margin-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .lesson-section h2 {
-  font-size: 42px;
+font-size: 42px;
 
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .lesson-section p {
-  line-height: 1.8;
+line-height: 1.8;
 
-  color: #475569;
+color: #475569;
 }
+
+/* BIG FORMULAS */
 
 .formula-card-large {
-  margin-top: 20px;
+margin-top: 20px;
 
-  background: white;
+background: white;
 
-  padding: 30px;
+padding: 30px;
 
-  border-radius: 24px;
+border-radius: 24px;
 
-  font-size: 42px;
+font-size: 42px;
 
-  font-weight: 700;
+font-weight: 700;
 
-  box-shadow:
-    0 10px 30px rgba(15,23,42,.05);
+box-shadow:
+0 10px 30px rgba(15,23,42,.05);
+
+overflow-x: auto;
+
+white-space: nowrap;
 }
+
+/* GRID */
 
 .lesson-grid {
-  display: grid;
+display: grid;
 
-  grid-template-columns:
-    repeat(2,1fr);
+grid-template-columns:
+repeat(2,1fr);
 
-  gap: 24px;
+gap: 24px;
 
-  margin-top: 20px;
+margin-top: 20px;
 }
 
+/* CARDS */
+
 .lesson-card {
-  background: white;
+background: white;
 
-  padding: 28px;
+padding: 28px;
 
-  border-radius: 24px;
+border-radius: 24px;
 
-  box-shadow:
-    0 10px 30px rgba(15,23,42,.04);
+box-shadow:
+0 10px 30px rgba(15,23,42,.04);
 }
 
 .lesson-card h3 {
-  margin-bottom: 12px;
+margin-bottom: 12px;
 }
+
+/* SMALL FORMULAS */
 
 .mini-formula {
-  font-size: 28px;
+font-size: 28px;
 
-  font-weight: 700;
+font-weight: 700;
 
-  margin: 16px 0;
+margin: 16px 0;
+
+overflow-x: auto;
 }
+
+/* EXAMPLE */
 
 .example-box {
-  margin-top: 20px;
+margin-top: 20px;
 
-  background: #f8fafc;
+background: #f8fafc;
 
-  padding: 24px;
+padding: 24px;
 
-  border-radius: 20px;
+border-radius: 20px;
 }
 
+/* TABLE */
+
 .table-block {
-  display: flex;
+display: flex;
 
-  flex-direction: column;
+flex-direction: column;
 
-  gap: 12px;
+gap: 12px;
 }
 
 .table-row {
-  background: white;
+background: white;
 
-  padding: 20px;
+padding: 20px;
 
-  border-radius: 16px;
+border-radius: 16px;
 
-  display: flex;
+display: flex;
 
-  justify-content: space-between;
+justify-content: space-between;
+
+gap: 20px;
 }
+
+/* REMEMBER */
 
 .remember-box {
-  background:
-    linear-gradient(
-      135deg,
-      #eef2ff,
-      #f8faff
-    );
+background:
+linear-gradient(
+135deg,
+#eef2ff,
+#f8faff
+);
 
-  padding: 30px;
+padding: 30px;
 
-  border-radius: 24px;
+border-radius: 24px;
 }
 
-.remember-box ul {
-  padding-left: 20px;
+.remember-box ul,
+.remember-box ol {
+padding-left: 20px;
 }
 
 .remember-box li {
-  margin-bottom: 12px;
-.graph-box {
-  margin-top: 20px;
-
-  background: white;
-
-  border-radius: 24px;
-
-  padding: 20px;
-
-  box-shadow:
-    0 10px 30px rgba(15,23,42,.05);
+margin-bottom: 12px;
 }
+
+/* GRAPH */
+
+.graph-box {
+margin-top: 20px;
+
+background: white;
+
+border-radius: 24px;
+
+padding: 20px;
+
+box-shadow:
+0 10px 30px rgba(15,23,42,.05);
+}
+
+/* LAPTOP */
+
+@media (max-width: 1200px) {
+
+.lesson-hero h1 {
+font-size: 60px;
+}
+
+}
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+
+.lesson-grid {
+grid-template-columns: 1fr;
+}
+
+.lesson-hero {
+padding: 40px;
+}
+
+.lesson-hero h1 {
+font-size: 52px;
+}
+
+.lesson-section h2 {
+font-size: 34px;
+}
+
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+.lesson-hero {
+padding: 28px;
+
+
+border-radius: 24px;
+
+
+}
+
+.lesson-hero h1 {
+font-size: 40px;
+
+
+line-height: 1.1;
+
+
+}
+
+.lesson-hero p {
+font-size: 16px;
+}
+
+.lesson-section h2 {
+font-size: 28px;
+}
+
+.formula-card-large {
+font-size: 24px;
+
+
+padding: 20px;
+
+
+}
+
+.mini-formula {
+font-size: 20px;
+}
+
+.lesson-card {
+padding: 20px;
+}
+
+.example-box {
+padding: 20px;
+}
+
+.remember-box {
+padding: 20px;
+}
+
+.table-row {
+flex-direction: column;
+
+
+gap: 10px;
+
+
+}
+
+}
+
+/* SMALL PHONE */
+
+@media (max-width: 480px) {
+
+.lesson-hero h1 {
+font-size: 32px;
+}
+
+.lesson-section h2 {
+font-size: 24px;
+}
+
+.formula-card-large {
+font-size: 18px;
+}
+
+.mini-formula {
+font-size: 18px;
+}
+
 }
