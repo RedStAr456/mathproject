@@ -34,10 +34,6 @@ export default function Home() {
               в одном месте.
             </p>
 
-            <button className="hero-button">
-              📖 Начать изучение
-            </button>
-
           </div>
 
           <div className="formulas">
