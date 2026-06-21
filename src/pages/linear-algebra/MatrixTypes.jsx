@@ -20,9 +20,9 @@ export default function MatrixTypes() {
           </div>
 
           <div className="formula-card-large">
-            ㅤ      (0 0 0)<br/>
+            ㅤㅤㅤㅤ(0 0 0)<br/>
             ㅤ0₃ =ㅤ(0 0 0)<br/>
-            ㅤ      (0 0 0)<br/>
+            ㅤㅤㅤㅤ(0 0 0)<br/>
             ㅤнулевая матрица
           </div>
         </section>
